@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML: corrected resources file -->
+<resources>
+    <string name="app_name">Fintech App</string>
+    <string name="welcome_back">Welcome Back! 👋</string>
+    <string name="hello_user_format">Hello, %s</string>
+    <string name="please_enter_valid_amount">Please enter a valid amount</string>
+    <string name="user_not_logged_in">User not logged in</string>
+    <string name="saved_success">Saved!</string>
+    <string name="error_saving_format">Error saving: %s</string>
+    <string name="login_failed_format">Login failed: %s</string>
+    <string name="please_enter_email_password">Please enter email and password</string>
+    <string name="registration_success_verify">Registration successful. Please verify email.</string>
+    <string name="registration_failed_format">Registration failed: %s</string>
+    <string name="warning_profile_not_saved">Warning: Profile not saved.</string>
+    <string name="account_created">Account Created!</string>
+    <string name="email_password_required">Email and password are required</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="type_label">Type</string>
+    <string name="amount_label">Amount</string>
+    <string name="login_slogan">It\'s Always Been Your Time - Why Wait? LOOP IT</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="login_success">Login successful</string>
+    <string name="profile_creation_failed">Profile creation failed</string>
+    <string name="error_deleting">Error deleting</string>
+    <string name="enter_amount">Please enter an amount</string>
+    <string name="login_failed_log">Login failed</string>
+    <string name="logout">Logout</string>
+    <string name="register_title">Register</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="register_button">Create Account</string>
+    <string name="currency_format">KES %s</string>
+
+
+    <!-- New strings -->
+    <string name="login_button">Log in</string>
+    <string name="no_account_register">Do not have an account? Register</string>
+    <string name="new_transaction">New Transaction</string>
+    <string name="amount_hint">Enter amount</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="deposit">Deposit</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="save_transaction">Save Transaction</string>
+    <string name="saving">Saving...</string>
+    <string name="loading">Loading</string>
+    <string name="no_transactions">No transactions yet</string>
+    <string name="invalid_date">Invalid Date</string>
+    <string name="profile_created">Profile created successfully</string>
+    <string name="please_enter_name">Please enter your name</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="add_money">Manage Funds</string>
+    <string name="history">History</string>
+    <string name="recent_transaction">Latest Transactions</string>
+</resources>

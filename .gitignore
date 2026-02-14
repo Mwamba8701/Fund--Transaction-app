@@ -1,4 +1,2 @@
 /build
-# Project exclude paths
 /.gradle/
-/src/

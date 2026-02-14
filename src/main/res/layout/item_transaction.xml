@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iconType"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_background"
+            android:padding="8dp"
+            android:src="@drawable/ic_deposit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/type_label" />
+
+        <TextView
+            android:id="@+id/txnType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Deposit"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/iconType"
+            app:layout_constraintTop_toTopOf="@id/iconType"
+            app:layout_constraintEnd_toStartOf="@id/txnAmount" />
+
+        <TextView
+            android:id="@+id/txnDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Oct 24, 2024"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            app:layout_constraintStart_toStartOf="@id/txnType"
+            app:layout_constraintTop_toBottomOf="@id/txnType"
+            app:layout_constraintEnd_toStartOf="@id/txnAmount" />
+
+        <TextView
+            android:id="@+id/txnAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="+$500.00"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#4CAF50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
