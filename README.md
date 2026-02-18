@@ -2,6 +2,8 @@
 
 A modern Android fintech application built with Kotlin that enables users to manage their financial transactions with ease. Track deposits, withdrawals, and monitor your balance in real-time.
 
+> **Note**: The repository name uses double hyphens (`Fund--Transaction-app`) as per the original naming convention.
+
 ## 📋 Overview
 
 Fund Transaction App is a comprehensive financial management application that allows users to:
@@ -106,10 +108,19 @@ buildConfigField("String", "SUPABASE_URL", "\"https://bhbszidhnpgputfrfysm.supab
 buildConfigField("String", "SUPABASE_KEY", "\"...\"")
 ```
 
-**Note**: For production use, you should:
-1. Create your own Supabase project at [supabase.com](https://supabase.com)
-2. Replace the URL and API key with your own credentials
-3. Set up the required database tables (see Database Schema section)
+**⚠️ IMPORTANT SECURITY NOTE**: The credentials shown in the code are for demonstration purposes only. For production use:
+1. **NEVER commit API keys directly** to version control
+2. Create your own Supabase project at [supabase.com](https://supabase.com)
+3. Store credentials in `local.properties` (which is git-ignored) or use environment variables
+4. Replace the hardcoded values with references to your secure configuration
+5. Set up the required database tables (see Database Schema section)
+
+**Best Practice**: Use `local.properties`:
+```properties
+# In local.properties (git-ignored)
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_key
+```
 
 ### 5. Build and Run
 1. Connect an Android device or start an emulator
@@ -230,8 +241,10 @@ CREATE TABLE transactions (
 Contributions are welcome! Here's how you can help:
 
 1. **Fork the Repository**
+   - Click the "Fork" button on GitHub to create your own copy
+   - Clone your forked repository:
    ```bash
-   git clone https://github.com/Mwamba8701/Fund--Transaction-app.git
+   git clone https://github.com/YOUR_USERNAME/Fund--Transaction-app.git
    ```
 
 2. **Create a Feature Branch**
