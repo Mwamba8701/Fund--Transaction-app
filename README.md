@@ -1,10 +1,10 @@
-# Fund Transaction App 💰
+# Fund Transaction App
 
 A modern Android fintech application built with Kotlin that enables users to manage their financial transactions with ease. Track deposits, withdrawals, and monitor your balance in real-time.
 
 > **Note**: The repository name uses double hyphens (`Fund--Transaction-app`) as per the original naming convention.
 
-## 📋 Overview
+## Overview
 
 Fund Transaction App is a comprehensive financial management application that allows users to:
 - Create and manage an account securely
@@ -15,7 +15,7 @@ Fund Transaction App is a comprehensive financial management application that al
 
 The app leverages Supabase for backend services, providing real-time database synchronization and secure authentication.
 
-## ✨ Key Features
+## Key Features
 
 ### User Authentication
 - **Secure Registration**: Create an account with email and password
@@ -40,7 +40,7 @@ The app leverages Supabase for backend services, providing real-time database sy
 - **Intuitive Navigation**: Simple and clean user experience
 - **Splash Screen**: Professional app launch experience
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Core Technologies
 - **Language**: Kotlin
@@ -82,7 +82,7 @@ Before you begin, ensure you have the following installed:
 - **Gradle**: 7.0 or higher (usually bundled with Android Studio)
 - **Git**: For version control
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -203,7 +203,7 @@ Fund--Transaction-app/
 └── README.md                                  # This file
 ```
 
-## 🗄️ Database Schema
+## Database Schema
 
 The app uses Supabase PostgreSQL database with the following tables:
 
@@ -228,7 +228,7 @@ CREATE TABLE transactions (
 );
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - **Secure Authentication**: Email/password authentication via Supabase Auth
 - **Row Level Security**: Database access controlled by user authentication
@@ -236,7 +236,7 @@ CREATE TABLE transactions (
 - **Session Management**: Automatic session handling and token refresh
 - **Input Validation**: Client-side validation for all user inputs
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -279,29 +279,29 @@ Contributions are welcome! Here's how you can help:
 - Keep functions small and focused
 - Write unit tests for new features
 
-## 📄 License
+## License
 
 This project is available for educational and personal use. For commercial use, please contact the repository owner.
 
-## 👥 Authors
+## Authors
 
 - **Mwamba8701** - *Initial work* - [GitHub Profile](https://github.com/Mwamba8701)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Supabase** - For providing an excellent backend-as-a-service platform
 - **Material Design** - For UI/UX guidelines
 - **Kotlin Community** - For excellent language support and libraries
 - **Android Developers** - For comprehensive documentation
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 1. Check existing [Issues](https://github.com/Mwamba8701/Fund--Transaction-app/issues)
 2. Create a new issue with detailed description
 3. Contact the maintainer through GitHub
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Planned features for future releases:
 - [ ] Transaction categories and tags
@@ -315,10 +315,10 @@ Planned features for future releases:
 - [ ] Push notifications for transactions
 - [ ] Data backup and restore
 
-## 📊 Screenshots
+## Screenshots
 
 *Coming soon - Screenshots of the app will be added here*
 
 ---
 
-**Made with ❤️ using Kotlin and Android**
+**Made with using Kotlin and Android**
